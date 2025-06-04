@@ -7,6 +7,7 @@ function appendValue(value) {
   updateDisplay();
 }
 
+
 function clearLast() {
   currentInput = currentInput.slice(0, -1);
   updateDisplay();
